@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:ottawa-badges-2016-cache
 EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
@@ -1212,13 +1213,7 @@ Wire Wire Line
 Wire Wire Line
 	850  3100 750  3100
 Wire Wire Line
-	750  2100 750  3100
-Wire Wire Line
-	750  3100 750  3200
-Wire Wire Line
-	750  3200 750  3300
-Wire Wire Line
-	750  3300 750  3500
+	750  2100 750  3500
 Wire Wire Line
 	850  3200 750  3200
 Connection ~ 750  3200
@@ -1228,11 +1223,7 @@ Connection ~ 750  3300
 Wire Wire Line
 	750  1300 850  1300
 Wire Wire Line
-	750  800  750  1000
-Wire Wire Line
-	750  1000 750  1100
-Wire Wire Line
-	750  1100 750  1300
+	750  800  750  1300
 Wire Wire Line
 	850  1100 750  1100
 Connection ~ 750  1100
@@ -1242,25 +1233,17 @@ Connection ~ 750  1000
 Wire Wire Line
 	2750 1600 4250 1600
 Wire Wire Line
-	4250 1600 4250 1700
-Wire Wire Line
-	4250 1700 4250 1800
+	4250 1600 4250 1800
 Wire Wire Line
 	4250 1700 4050 1700
 Wire Wire Line
-	2750 1700 3650 1700
-Wire Wire Line
-	3650 1700 3850 1700
+	2750 1700 3850 1700
 Wire Wire Line
 	9400 5300 9500 5300
 Wire Wire Line
-	9400 5000 9400 5100
+	9400 5000 9400 5300
 Wire Wire Line
-	9400 5100 9400 5300
-Wire Wire Line
-	9900 5900 9900 6000
-Wire Wire Line
-	9900 6000 9900 6100
+	9900 5900 9900 6100
 Wire Wire Line
 	9900 6000 9400 6000
 Wire Wire Line
@@ -1269,19 +1252,7 @@ Wire Wire Line
 	9400 5700 9500 5700
 Connection ~ 9900 6000
 Wire Wire Line
-	1800 5000 2150 5000
-Wire Wire Line
-	2150 5000 2300 5000
-Wire Wire Line
-	2300 5000 2600 5000
-Wire Wire Line
-	2600 5000 2900 5000
-Wire Wire Line
-	2900 5000 3200 5000
-Wire Wire Line
-	3200 5000 3500 5000
-Wire Wire Line
-	3500 5000 3800 5000
+	1800 5000 3800 5000
 Wire Wire Line
 	3800 5000 3800 5050
 Wire Wire Line
@@ -1300,19 +1271,7 @@ Wire Wire Line
 	2300 5050 2300 5000
 Connection ~ 2300 5000
 Wire Wire Line
-	1800 5400 2000 5400
-Wire Wire Line
-	2000 5400 2450 5400
-Wire Wire Line
-	2450 5400 2600 5400
-Wire Wire Line
-	2600 5400 2900 5400
-Wire Wire Line
-	2900 5400 3200 5400
-Wire Wire Line
-	3200 5400 3500 5400
-Wire Wire Line
-	3500 5400 3800 5400
+	1800 5400 3800 5400
 Wire Wire Line
 	3800 5400 3800 5450
 Wire Wire Line
@@ -1331,19 +1290,7 @@ Wire Wire Line
 	2000 5450 2000 5400
 Connection ~ 2000 5400
 Wire Wire Line
-	1800 5800 2000 5800
-Wire Wire Line
-	2000 5800 2300 5800
-Wire Wire Line
-	2300 5800 2750 5800
-Wire Wire Line
-	2750 5800 2900 5800
-Wire Wire Line
-	2900 5800 3200 5800
-Wire Wire Line
-	3200 5800 3500 5800
-Wire Wire Line
-	3500 5800 3800 5800
+	1800 5800 3800 5800
 Wire Wire Line
 	3800 5800 3800 5850
 Wire Wire Line
@@ -1362,19 +1309,7 @@ Wire Wire Line
 	2000 5850 2000 5800
 Connection ~ 2000 5800
 Wire Wire Line
-	1800 6200 2000 6200
-Wire Wire Line
-	2000 6200 2300 6200
-Wire Wire Line
-	2300 6200 2600 6200
-Wire Wire Line
-	2600 6200 3050 6200
-Wire Wire Line
-	3050 6200 3200 6200
-Wire Wire Line
-	3200 6200 3500 6200
-Wire Wire Line
-	3500 6200 3800 6200
+	1800 6200 3800 6200
 Wire Wire Line
 	3800 6200 3800 6250
 Wire Wire Line
@@ -1393,17 +1328,7 @@ Wire Wire Line
 	2000 6250 2000 6200
 Connection ~ 2000 6200
 Wire Wire Line
-	1800 6600 2000 6600
-Wire Wire Line
-	2000 6600 2300 6600
-Wire Wire Line
-	2300 6600 2600 6600
-Wire Wire Line
-	2600 6600 2900 6600
-Wire Wire Line
-	2900 6600 3350 6600
-Wire Wire Line
-	3350 6600 3500 6600
+	1800 6600 3500 6600
 Wire Wire Line
 	3500 6600 3500 6650
 Wire Wire Line
@@ -1419,17 +1344,7 @@ Wire Wire Line
 	2000 6650 2000 6600
 Connection ~ 2000 6600
 Wire Wire Line
-	3650 7000 3200 7000
-Wire Wire Line
-	3200 7000 2900 7000
-Wire Wire Line
-	2900 7000 2600 7000
-Wire Wire Line
-	2600 7000 2300 7000
-Wire Wire Line
-	2300 7000 2000 7000
-Wire Wire Line
-	2000 7000 1800 7000
+	3650 7000 1800 7000
 Wire Wire Line
 	3200 7000 3200 7050
 Wire Wire Line
@@ -1445,17 +1360,7 @@ Wire Wire Line
 	2000 7050 2000 7000
 Connection ~ 2000 7000
 Wire Wire Line
-	2150 5000 2150 5700
-Wire Wire Line
-	2150 5700 2150 6100
-Wire Wire Line
-	2150 6100 2150 6500
-Wire Wire Line
-	2150 6500 2150 6900
-Wire Wire Line
-	2150 6900 2150 7300
-Wire Wire Line
-	2150 7300 2150 7700
+	2150 5000 2150 7700
 Wire Wire Line
 	2150 7700 2000 7700
 Wire Wire Line
@@ -1467,19 +1372,7 @@ Wire Wire Line
 	2000 7300 2150 7300
 Connection ~ 2150 7300
 Wire Wire Line
-	3950 7400 3500 7400
-Wire Wire Line
-	3500 7400 3200 7400
-Wire Wire Line
-	3200 7400 2900 7400
-Wire Wire Line
-	2900 7400 2600 7400
-Wire Wire Line
-	2600 7400 2300 7400
-Wire Wire Line
-	2300 7400 2000 7400
-Wire Wire Line
-	2000 7400 1800 7400
+	3950 7400 1800 7400
 Wire Wire Line
 	3500 7400 3500 7450
 Wire Wire Line
@@ -1522,17 +1415,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 5300 2450 5300
 Wire Wire Line
-	2450 5300 2450 5400
-Wire Wire Line
-	2450 5400 2450 6100
-Wire Wire Line
-	2450 6100 2450 6500
-Wire Wire Line
-	2450 6500 2450 6900
-Wire Wire Line
-	2450 6900 2450 7300
-Wire Wire Line
-	2450 7300 2450 7700
+	2450 5300 2450 7700
 Wire Wire Line
 	2450 7700 2300 7700
 Wire Wire Line
@@ -1562,17 +1445,7 @@ Wire Wire Line
 Wire Wire Line
 	2600 5300 2750 5300
 Wire Wire Line
-	2750 5300 2750 5700
-Wire Wire Line
-	2750 5700 2750 5800
-Wire Wire Line
-	2750 5800 2750 6500
-Wire Wire Line
-	2750 6500 2750 6900
-Wire Wire Line
-	2750 6900 2750 7300
-Wire Wire Line
-	2750 7300 2750 7700
+	2750 5300 2750 7700
 Wire Wire Line
 	2750 7700 2600 7700
 Wire Wire Line
@@ -1602,17 +1475,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 5300 3050 5300
 Wire Wire Line
-	3050 5300 3050 5700
-Wire Wire Line
-	3050 5700 3050 6100
-Wire Wire Line
-	3050 6100 3050 6200
-Wire Wire Line
-	3050 6200 3050 6900
-Wire Wire Line
-	3050 6900 3050 7300
-Wire Wire Line
-	3050 7300 3050 7700
+	3050 5300 3050 7700
 Wire Wire Line
 	3050 7700 2900 7700
 Wire Wire Line
@@ -1642,17 +1505,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 5300 3350 5300
 Wire Wire Line
-	3350 5300 3350 5700
-Wire Wire Line
-	3350 5700 3350 6100
-Wire Wire Line
-	3350 6100 3350 6500
-Wire Wire Line
-	3350 6500 3350 6600
-Wire Wire Line
-	3350 6600 3350 7300
-Wire Wire Line
-	3350 7300 3350 7700
+	3350 5300 3350 7700
 Wire Wire Line
 	3350 7700 3200 7700
 Wire Wire Line
@@ -1682,17 +1535,7 @@ Wire Wire Line
 Wire Wire Line
 	3500 5300 3650 5300
 Wire Wire Line
-	3650 5300 3650 5700
-Wire Wire Line
-	3650 5700 3650 6100
-Wire Wire Line
-	3650 6100 3650 6500
-Wire Wire Line
-	3650 6500 3650 6900
-Wire Wire Line
-	3650 6900 3650 7000
-Wire Wire Line
-	3650 7000 3650 7700
+	3650 5300 3650 7700
 Wire Wire Line
 	3650 7700 3500 7700
 Wire Wire Line
@@ -1724,13 +1567,7 @@ Connection ~ 2450 5400
 Connection ~ 3200 7000
 Connection ~ 3650 7000
 Wire Wire Line
-	3950 5300 3950 5700
-Wire Wire Line
-	3950 5700 3950 6100
-Wire Wire Line
-	3950 6100 3950 6500
-Wire Wire Line
-	3950 6500 3950 7400
+	3950 5300 3950 7400
 Wire Wire Line
 	3950 5300 3800 5300
 Wire Wire Line
@@ -1766,25 +1603,17 @@ Wire Wire Line
 Wire Wire Line
 	700  7400 1200 7400
 Wire Wire Line
-	3950 2800 3950 2900
+	3950 2800 3950 3000
 Wire Wire Line
-	3950 2900 3950 3000
-Wire Wire Line
-	3650 2900 3950 2900
-Wire Wire Line
-	3950 2900 4250 2900
+	3650 2900 4250 2900
 Wire Wire Line
 	3650 2900 3650 3000
 Wire Wire Line
 	3650 3300 3650 3400
 Wire Wire Line
-	3650 3400 3950 3400
+	3650 3400 4250 3400
 Wire Wire Line
-	3950 3400 4250 3400
-Wire Wire Line
-	3950 3300 3950 3400
-Wire Wire Line
-	3950 3400 3950 3500
+	3950 3300 3950 3500
 Wire Wire Line
 	4250 3400 4250 3300
 Connection ~ 3950 3400
@@ -1794,9 +1623,7 @@ Connection ~ 3950 2900
 Wire Wire Line
 	3650 2100 3650 2200
 Wire Wire Line
-	3650 2200 3950 2200
-Wire Wire Line
-	3950 2200 4250 2200
+	3650 2200 4250 2200
 Wire Wire Line
 	3950 2200 3950 2300
 Wire Wire Line
@@ -1807,9 +1634,7 @@ Wire Wire Line
 	3650 1800 3650 1700
 Connection ~ 3650 1700
 Wire Wire Line
-	500  1600 750  1600
-Wire Wire Line
-	750  1600 850  1600
+	500  1600 850  1600
 Wire Wire Line
 	750  1600 750  1800
 Connection ~ 750  3100
@@ -1822,9 +1647,7 @@ Wire Wire Line
 Wire Wire Line
 	9500 5500 9200 5500
 Wire Wire Line
-	8300 5300 8800 5300
-Wire Wire Line
-	8800 5300 8900 5300
+	8300 5300 8900 5300
 Wire Wire Line
 	8800 5300 8800 5100
 Wire Wire Line
@@ -1854,23 +1677,15 @@ Wire Wire Line
 Wire Wire Line
 	7600 1700 7600 1300
 Wire Wire Line
-	7400 1300 7600 1300
+	7400 1300 7700 1300
 Wire Wire Line
-	7600 1300 7700 1300
-Wire Wire Line
-	8300 2000 8300 2100
-Wire Wire Line
-	8300 2100 8300 2200
+	8300 2000 8300 2200
 Wire Wire Line
 	8900 1300 9100 1300
 Wire Wire Line
-	9100 1200 9100 1300
+	9100 1200 9100 1500
 Wire Wire Line
-	9100 1300 9100 1500
-Wire Wire Line
-	7400 1200 7400 1300
-Wire Wire Line
-	7400 1300 7400 1500
+	7400 1200 7400 1500
 Connection ~ 7600 1300
 Wire Wire Line
 	9100 1200 9200 1200
@@ -1879,11 +1694,7 @@ Wire Wire Line
 Wire Wire Line
 	10300 1100 10300 1000
 Wire Wire Line
-	6900 2100 7400 2100
-Wire Wire Line
-	7400 2100 8300 2100
-Wire Wire Line
-	8300 2100 9100 2100
+	6900 2100 9100 2100
 Wire Wire Line
 	7400 2100 7400 1800
 Connection ~ 8300 2100
@@ -1933,9 +1744,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 5700 5200 5700
 Wire Wire Line
-	2500 3800 2200 3800
-Wire Wire Line
-	2200 3800 1900 3800
+	1900 3800 2500 3800
 Wire Wire Line
 	1600 3800 1400 3800
 Wire Wire Line
@@ -2107,9 +1916,7 @@ F 3 "" H 8500 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8500 3300 8500 3400
-Wire Wire Line
-	8500 3400 8500 4700
+	8500 3300 8500 4700
 Wire Wire Line
 	8500 3400 8600 3400
 Wire Wire Line
@@ -2133,9 +1940,7 @@ $EndComp
 Wire Wire Line
 	8600 2900 8500 2900
 Wire Wire Line
-	8500 2600 8500 2900
-Wire Wire Line
-	8500 2900 8500 3100
+	8500 2600 8500 3100
 Wire Wire Line
 	8600 3000 7900 3000
 Wire Wire Line
