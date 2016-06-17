@@ -1972,7 +1972,7 @@ F 1 "CONN_02X03" H 6750 3300 50  0000 C CNN
 F 2 "Socket_Strips:Socket_Strip_Straight_2x03" H 6750 2300 60  0001 C CNN
 F 3 "" H 6750 2300 60  0000 C CNN
 	1    6750 3500
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 $Comp
 L GND #PWR019
