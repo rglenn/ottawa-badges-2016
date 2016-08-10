@@ -1,0 +1,19 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# VS1838B-RESCUE-ottawa-badges-2016
+#
+DEF VS1838B-RESCUE-ottawa-badges-2016 U 0 40 Y Y 1 F N
+F0 "U" 0 275 60 H V C CNN
+F1 "VS1838B-RESCUE-ottawa-badges-2016" 0 -275 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S -200 200 200 -200 0 1 0 N
+X VO 1 -400 0 200 R 50 50 1 1 I
+X GND 2 -400 -100 200 R 50 50 1 1 I
+X VCC 3 -400 100 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
