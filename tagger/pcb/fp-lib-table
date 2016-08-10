@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name BadgeParts)(type KiCad)(uri C:\Projects\ottawa-badges-2016\pcb\BadgeParts.pretty)(options "")(descr ""))
+)
