@@ -46,7 +46,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ATMEGA328P-A U1
+L ATMEGA328PB-A U1
 U 1 1 575E45D7
 P 1750 2100
 F 0 "U1" H 1000 3350 40  0000 L BNN
@@ -718,17 +718,6 @@ F 3 "" H 3650 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
-U 1 1 575F02FB
-P 3650 3150
-F 0 "C3" H 3675 3250 50  0000 L CNN
-F 1 "100n" H 3675 3050 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 3688 3000 30  0001 C CNN
-F 3 "" H 3650 3150 60  0000 C CNN
-	1    3650 3150
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C4
 U 1 1 575F038C
 P 3950 3150
@@ -1213,8 +1202,6 @@ Wire Wire Line
 Wire Wire Line
 	2750 2450 3450 2450
 Wire Wire Line
-	850  3100 750  3100
-Wire Wire Line
 	750  2100 750  3500
 Wire Wire Line
 	850  3200 750  3200
@@ -1226,9 +1213,6 @@ Wire Wire Line
 	750  1300 850  1300
 Wire Wire Line
 	750  800  750  1300
-Wire Wire Line
-	850  1100 750  1100
-Connection ~ 750  1100
 Wire Wire Line
 	850  1000 750  1000
 Connection ~ 750  1000
@@ -1607,14 +1591,6 @@ Wire Wire Line
 Wire Wire Line
 	3950 2800 3950 3000
 Wire Wire Line
-	3650 2900 4250 2900
-Wire Wire Line
-	3650 2900 3650 3000
-Wire Wire Line
-	3650 3300 3650 3400
-Wire Wire Line
-	3650 3400 4250 3400
-Wire Wire Line
 	3950 3300 3950 3500
 Wire Wire Line
 	4250 3400 4250 3300
@@ -1639,7 +1615,6 @@ Wire Wire Line
 	500  1600 850  1600
 Wire Wire Line
 	750  1600 750  1800
-Connection ~ 750  3100
 Wire Wire Line
 	9500 5400 9300 5400
 Wire Wire Line
@@ -2031,10 +2006,9 @@ AREF
 Connection ~ 750  1600
 NoConn ~ 9500 5600
 Text Label 500  2350 0    60   ~ 0
-MIC
+PE2
 Wire Wire Line
 	500  2350 850  2350
-NoConn ~ 850  2450
 $Comp
 L CONN_01X01 P7
 U 1 1 5768D7CC
@@ -2069,10 +2043,10 @@ F 3 "" H 6500 5000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR022
+L GND #PWR021
 U 1 1 5768DC08
 P 6200 5100
-F 0 "#PWR022" H 6200 4850 50  0001 C CNN
+F 0 "#PWR021" H 6200 4850 50  0001 C CNN
 F 1 "GND" H 6200 4950 50  0000 C CNN
 F 2 "" H 6200 5100 60  0000 C CNN
 F 3 "" H 6200 5100 60  0000 C CNN
@@ -2103,10 +2077,10 @@ F 3 "" H 7500 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR023
+L GND #PWR022
 U 1 1 576D5F67
 P 6600 4200
-F 0 "#PWR023" H 6600 3950 50  0001 C CNN
+F 0 "#PWR022" H 6600 3950 50  0001 C CNN
 F 1 "GND" H 6600 4050 50  0000 C CNN
 F 2 "" H 6600 4200 60  0000 C CNN
 F 3 "" H 6600 4200 60  0000 C CNN
@@ -2210,10 +2184,10 @@ Wire Wire Line
 	6800 4000 6800 4100
 Connection ~ 6800 4100
 $Comp
-L +3.3V #PWR024
+L +3.3V #PWR023
 U 1 1 576DFC08
 P 6200 2900
-F 0 "#PWR024" H 6200 2750 50  0001 C CNN
+F 0 "#PWR023" H 6200 2750 50  0001 C CNN
 F 1 "+3.3V" H 6200 3040 50  0000 C CNN
 F 2 "" H 6200 2900 60  0000 C CNN
 F 3 "" H 6200 2900 60  0000 C CNN
@@ -2230,4 +2204,47 @@ Wire Wire Line
 Wire Wire Line
 	6700 3000 6700 3400
 Connection ~ 6800 3400
+Text Label 500  2250 0    60   ~ 0
+PE1
+Text Label 500  2150 0    60   ~ 0
+PE0
+Text Label 500  2450 0    60   ~ 0
+PE3
+Wire Wire Line
+	500  2450 850  2450
+Wire Wire Line
+	500  2250 850  2250
+Wire Wire Line
+	850  2150 500  2150
+$Comp
+L CONN_01X04 P9
+U 1 1 57E9B5A1
+P 3700 4450
+F 0 "P9" H 3700 4700 50  0000 C CNN
+F 1 "CONN_01X04" V 3800 4450 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x04" H 3700 4450 60  0001 C CNN
+F 3 "" H 3700 4450 60  0000 C CNN
+	1    3700 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 4600 3000 4600
+Wire Wire Line
+	3000 4500 3500 4500
+Wire Wire Line
+	3500 4400 3000 4400
+Wire Wire Line
+	3000 4300 3500 4300
+Text Label 3000 4300 0    60   ~ 0
+PE0
+Text Label 3000 4400 0    60   ~ 0
+PE1
+Text Label 3000 4500 0    60   ~ 0
+PE2
+Text Label 3000 4600 0    60   ~ 0
+PE3
+Wire Wire Line
+	4250 2900 3950 2900
+Wire Wire Line
+	3950 3400 4250 3400
 $EndSCHEMATC
